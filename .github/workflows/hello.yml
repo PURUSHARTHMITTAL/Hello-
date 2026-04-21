@@ -1,0 +1,18 @@
+name: My First WorkFlow
+
+on: push
+
+jobs:
+
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Hello, GitHub Actions!"
+      - name: Print Bye
+        run: echo "bye github actions!"
+      - name: Print Hello
+        run: echo "Hello"
+      - name: Print Your Name
+        run: echo "Purusharth Mittal"
